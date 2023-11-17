@@ -1,0 +1,15 @@
+/home/damien/Dropbox/C#/ModulePerso/Depenses/bin/Debug/net7.0/Depenses
+/home/damien/Dropbox/C#/ModulePerso/Depenses/bin/Debug/net7.0/Depenses.deps.json
+/home/damien/Dropbox/C#/ModulePerso/Depenses/bin/Debug/net7.0/Depenses.runtimeconfig.json
+/home/damien/Dropbox/C#/ModulePerso/Depenses/bin/Debug/net7.0/Depenses.dll
+/home/damien/Dropbox/C#/ModulePerso/Depenses/bin/Debug/net7.0/Depenses.pdb
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/Depenses.csproj.AssemblyReference.cache
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/Depenses.GeneratedMSBuildEditorConfig.editorconfig
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/Depenses.AssemblyInfoInputs.cache
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/Depenses.AssemblyInfo.cs
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/Depenses.csproj.CoreCompileInputs.cache
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/Depenses.dll
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/refint/Depenses.dll
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/Depenses.pdb
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/Depenses.genruntimeconfig.cache
+/home/damien/Dropbox/C#/ModulePerso/Depenses/obj/Debug/net7.0/ref/Depenses.dll
