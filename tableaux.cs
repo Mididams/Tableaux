@@ -1,6 +1,9 @@
 ﻿using System;
 
 int nombreMax = 50;
+int compteur1 = 0;
+int compteur2 = 0;
+
 double[] tableau1 = new double[50];
 double[] tableau2 = new double[50];
 double total = 0;
@@ -34,23 +37,24 @@ do
             Console.WriteLine("Les nombres décimaux doivent comporter une virgule ',': et pas un point '.'\n");
             Console.WriteLine("Taper Entrée aprés chaque nombre");
             Console.WriteLine("Taper 'ok' pour quitter à la fin de votre saisie\n");
-
-            for (int i = 0; i < nombreMax; i++)
+            do
             {
-                Console.WriteLine($"Entrer le nombre {i + 1}:");
+                compteur1++;
+                Console.WriteLine($"Entrer le nombre {compteur1}:");
                 readResult = Console.ReadLine();
                 if (readResult != null)
                 {
                     if (readResult.ToLower() == "ok")
                         break;
 
-                    if (!double.TryParse(readResult, out tableau1[i]))
+                    if (!double.TryParse(readResult, out tableau1[compteur1]))
                     {
                         Console.WriteLine("Entrée invalide. Veuillez entrer un nombre.");
-                        i--;
+                        compteur1--;
                     }
                 }
-            }
+                total += tableau1[compteur1];
+            } while (compteur1 < nombreMax && readResult != "ok");
 
             Console.WriteLine("\nVoici les nombres entrés:");
             for (int i = 0; i < nombreMax; i++)
@@ -61,9 +65,8 @@ do
                     if (i < nombreMax - 1)
                         Console.Write(" | ");
                 }
-                total += tableau1[i];
             }
-
+                
             Console.WriteLine();
             Console.WriteLine($"Le total est: {total}");
             Console.WriteLine("\nTaper Entrée");
@@ -77,24 +80,25 @@ do
             Console.WriteLine("Les nombres décimaux doivent comporter une virgule ',': et pas un point '.'\n");
             Console.WriteLine("Taper Entrée aprés chaque nombre");
             Console.WriteLine("Taper 'ok' pour quitter à la fin de votre saisie\n");
-
-            for (int i = 0; i < nombreMax; i++)
+            do
             {
-                Console.WriteLine($"Entrer le nombre {i + 1}:");
+                compteur2++;
+                Console.WriteLine($"Entrer le nombre {compteur2 + 1}:");
                 readResult = Console.ReadLine();
                 if (readResult != null)
                 {
                     if (readResult.ToLower() == "ok")
                         break;
 
-                    if (!double.TryParse(readResult, out tableau2[i]))
+                    if (!double.TryParse(readResult, out tableau2[compteur2]))
                     {
                         Console.WriteLine("Entrée invalide. Veuillez entrer un nombre.");
-                        i--;
+                        compteur2--;
                     }
                 }
-            }
-
+                total2 += tableau2[compteur2];
+            } while (compteur2 < nombreMax && readResult != "ok");
+            
             Console.WriteLine("\nVoici les nombres entrés:");
             for (int i = 0; i < nombreMax; i++)
             {
@@ -104,7 +108,6 @@ do
                     if (i < nombreMax - 1)
                         Console.Write(" | ");
                 }
-                total2 += tableau2[i];
             }
             Console.WriteLine();
             Console.WriteLine($"Le total est: {total2}");
@@ -148,5 +151,4 @@ do
     }
 
 } while (entreeUtilisateur != "0");
-
 
