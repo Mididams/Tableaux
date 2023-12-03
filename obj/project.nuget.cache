@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0BP5hkoxUxH3cR0MBneR5Sin8/Y5DGEsR8wADhJc+2/KIu0F/p99v4VDLnxvzwS5u66SJtQEZohYGKLfYfvWmw==",
+  "dgSpecHash": "8eU+r5igbvwx4gkTZZG1G9gnuCBrMp5wYJ/HVZJB0s7eRU5AWY6PmpEuaGTXeXP4UNrCLq7fTf/AvFPSyM2ppQ==",
   "success": true,
-  "projectFilePath": "/home/damien/Bureau/Tableaux/tableaux.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\midid\\Dropbox\\C#\\GitHubTableaux\\Tableaux\\tableaux.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\midid\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\midid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\midid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\midid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

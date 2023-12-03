@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/damien/.nuget/packages/": {}
+    "C:\\Users\\midid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/damien/Bureau/Tableaux/tableaux.csproj",
+      "projectUniqueName": "C:\\Users\\midid\\Dropbox\\C#\\GitHubTableaux\\Tableaux\\tableaux.csproj",
       "projectName": "tableaux",
-      "projectPath": "/home/damien/Bureau/Tableaux/tableaux.csproj",
-      "packagesPath": "/home/damien/.nuget/packages/",
-      "outputPath": "/home/damien/Bureau/Tableaux/obj/",
+      "projectPath": "C:\\Users\\midid\\Dropbox\\C#\\GitHubTableaux\\Tableaux\\tableaux.csproj",
+      "packagesPath": "C:\\Users\\midid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\midid\\Dropbox\\C#\\GitHubTableaux\\Tableaux\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/damien/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\midid\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -54,12 +54,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
